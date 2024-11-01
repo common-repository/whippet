@@ -1,0 +1,333 @@
+#wp-admin-bar-whippet .ab-item {
+  cursor: pointer;
+}
+
+.whippet-panel {
+  position: fixed;
+  top: 32px;
+  left: 0;
+  bottom: 0;
+  width: auto;
+  height: auto;
+  background: #eee;
+  color: #000;
+  overflow: scroll;
+  padding: 1em 1em 2em 1em;
+  font-family: -apple-system, blinkMacsystemfont, "Segoe UI", roboto, oxygen-sans, ubuntu, cantarell, "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  line-height: 1.6842;
+  z-index: 1000000;
+}
+
+.whippet-panel h1 {
+  border: 0;
+  font-family: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+  color: #444;
+  clear: both;
+  font-size: 28px;
+}
+
+.whippet-panel h2 {
+  border: 0;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+  color: #444;
+  clear: both;
+  text-transform: uppercase;
+}
+
+.whippet-panel h3 {
+  border: 0;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+  color: #444;
+  clear: both;
+}
+
+.whippet-panel table {
+  border: 0;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+  color: #444;
+  border-collapse: separate;
+  border-spacing: 0;
+  table-layout: fixed;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-width: 1px 0 0 1px;
+  margin: 0 0 1.6em;
+}
+
+.whippet-panel table tr td {
+  font-weight: 400;
+  font-style: inherit;
+  vertical-align: baseline;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+.whippet-panel tbody {
+  border: 0;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+  color: #444;
+}
+
+.whippet-panel tr {
+  border: 0;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+  color: #444;
+}
+
+.whippet-panel td {
+  border: 0;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+  color: #444;
+}
+
+.whippet-panel * {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+.whippet-panel *:before {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+.whippet-panel *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+.whippet-panel .whippet-service {
+  background: #ed6a67;
+  color: #fff;
+  font-size: 1.5em;
+  line-height: 1.2em;
+  padding: 1em 2em;
+  text-align: center;
+  float: left;
+  width: 100%;
+}
+
+.whippet-panel .whippet-service a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.whippet-panel .whippet-service b {
+  float: left;
+  width: 100%;
+  padding: .5em 0;
+  background: #fff;
+  color: #444;
+  margin: 1em 0 0 0;
+  font-family: monospace;
+}
+
+.whippet-panel ul {
+  margin: 0;
+  padding: 0;
+  list-style: disc;
+  max-width: 1000px;
+}
+
+.whippet-panel ul li {
+  margin: 0 0 0 2em;
+  padding: 0;
+}
+
+.whippet-panel ul li a {
+  text-decoration: underline;
+}
+
+.whippet-panel #submit-whippet {
+  font-family: inherit;
+  background: #0085ba;
+  border-color: #0073aa #006799 #006799;
+  -webkit-box-shadow: 0 1px 0 #006799;
+          box-shadow: 0 1px 0 #006799;
+  color: #fff;
+  text-shadow: 0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: none;
+  font-size: 13px;
+  line-height: 26px;
+  height: 28px;
+  margin: 0 0 2em 0;
+  padding: 0 10px 1px;
+  cursor: pointer;
+  border-width: 1px;
+  border-style: solid;
+     -moz-appearance: none;
+  -webkit-appearance: none;
+  border-radius: 3px;
+  white-space: nowrap;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.whippet-table {
+  border: none;
+  background: #fff;
+}
+
+.whippet-table tr:nth-child(even) {
+  background-color: rgba(238, 238, 238, .1);
+}
+
+.whippet-table tr th {
+  padding: .5em;
+  border-bottom: 1px solid #e5e5e5;
+  border-width: 0 0 1px 0;
+}
+
+.whippet-table tr th:nth-child(1) {
+  text-align: center;
+  width: 55px;
+}
+
+.whippet-table tr th:nth-child(2) {
+  width: 100px;
+}
+
+.whippet-table tr th:nth-child(3) {
+  width: 40%;
+}
+
+.whippet-table tr td {
+  padding: .5em;
+  border-bottom: 1px solid #e5e5e5;
+  border-width: 0 0 1px 0;
+}
+
+.whippet-table tr td input[type=checkbox] {
+  outline: none;
+  display: inline-block;
+  margin: 0 .25em 0 0;
+  width: auto;
+}
+
+.whippet-table tr td span {
+  font-size: .8em;
+}
+
+.whippet-table tr td span > a {
+  color: red;
+}
+
+.whippet-table tr td h3 {
+  font-size: 1.2em;
+  line-height: 1.3em;
+}
+
+.whippet-table tr td h3 a {
+  color: #222;
+}
+
+.whippet-table tr td a {
+  text-decoration: none;
+}
+
+.whippet-table tr td .whippet-link {
+  font-size: .8em;
+  color: #0073aa;
+  white-space: nowrap;
+}
+
+.whippet-table tr td .whippet-comment {
+  display: inline-block;
+}
+
+.whippet-table tr td label {
+  margin: 0 0 0 .25em;
+  display: inline-block;
+  width: auto;
+}
+
+.whippet-table tr td .state-1 {
+  background: #2ecc70;
+  color: #fff;
+  width: 100%;
+}
+
+.whippet-table tr td .state-0 {
+  background: #e74a3c;
+  color: #fff;
+  width: 100%;
+}
+
+.whippet-table tr td:nth-child(1) {
+  text-align: center;
+  width: 55px;
+}
+
+.whippet-table tr td:nth-child(2) {
+  width: 100px;
+}
+
+.whippet-table tr td:nth-child(3) {
+  width: 40%;
+}
+
+.whippet-table tr .overflow {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.whippet-table tr .options div {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+.whippet-table tr .options .ignore {
+  margin-top: .5em;
+}
+
+/*# sourceMappingURL=style-whippet.css.map*/

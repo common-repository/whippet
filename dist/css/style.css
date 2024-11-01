@@ -1,0 +1,57 @@
+/**
+ * Tailwind
+ */
+
+.whippet-admin h2 {
+  font-size: 24px;
+  line-height: normal;
+  margin: 25px 0 0;
+}
+
+.whippet-admin p.whippet-subheading {
+  font-size: 12px;
+  line-height: normal;
+  font-style: italic;
+  margin: 5px 0 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.whippet-admin select {
+  min-width: 300px;
+}
+
+.whippet-admin textarea {
+  min-width: 300px;
+  resize: both;
+  min-height: 150px;
+}
+
+.whippet-admin .form-table th label {
+  vertical-align: top;
+}
+
+.whippet-admin p.submit {
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
+.whippet-admin p.submit .button {
+  margin: 10px 10px 0 0;
+}
+
+.whippet-admin #whippet-restore .button {
+  margin: 10px 10px 0 0;
+}
+
+.whippet-admin #whippet-legend {
+  float: right;
+  padding-top: 20px;
+  font-size: 12px;
+  line-height: 15px;
+  font-style: italic;
+  color: #aaa;
+}
+
+/*# sourceMappingURL=style.css.map*/
